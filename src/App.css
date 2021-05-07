@@ -36,3 +36,32 @@
     transform: rotate(360deg);
   }
 }
+.container {
+  margin-top: 50px;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+.container-todo {
+  display: flex;
+  padding:  10px 10px 10px 10px;
+  justify-content: space-around;
+  align-items: center;
+}
+.btn-edit {
+  background-color: rgb(42, 98, 219);
+  border: none;
+  color: white;
+  border-radius: 5%;
+  height: 30px;
+  width: 60px;
+  
+}
+
+.btn-delete {
+  background-color: rgb(230, 27, 37);
+  border: none;
+  color: white;
+  border-radius: 5%;
+  height: 30px;
+  width: 60px;
+}
